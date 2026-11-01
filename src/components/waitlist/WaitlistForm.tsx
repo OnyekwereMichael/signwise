@@ -229,18 +229,18 @@ export default function WaitlistForm({ idPrefix = "waitlist" }: WaitlistFormProp
           ) : (
             <>
               Join the waitlist
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              {/* <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M5 12h14M13 6l6 6-6 6" />
-              </svg>
+              </svg> */}
             </>
           )}
         </button>
 
         <p className="flex items-center justify-center gap-2 text-sm text-muted">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          {/* <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             <rect x="4.5" y="10.5" width="15" height="10" rx="2.5" />
             <path d="M8 10.5V7.5a4 4 0 0 1 8 0v3" />
-          </svg>
+          </svg> */}
           Free to join. We’ll only email you about the launch.
         </p>
       </div>

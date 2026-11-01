@@ -1,4 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="8" fill="#2B3FD9"/>
-  <path d="M9 16.5l4.5 4.5L23 11" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Signwise">
+  <rect width="64" height="64" rx="15" fill="#2B3FD9"/>
+  <!-- the contract page -->
+  <path d="M22 10h15l10 10v30a4 4 0 0 1-4 4H22a4 4 0 0 1-4-4V14a4 4 0 0 1 4-4z" fill="#fff"/>
+  <path d="M37 10l10 10h-6a4 4 0 0 1-4-4z" fill="#C7CFFA"/>
+  <!-- the yellow highlighter on the risky clause -->
+  <rect x="23" y="25" width="19" height="6.5" rx="1.6" fill="#FFE066"/>
+  <!-- the "checked and understood" mark -->
+  <path d="M25 42l5 5 10.5-11.5" fill="none" stroke="#2B3FD9" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

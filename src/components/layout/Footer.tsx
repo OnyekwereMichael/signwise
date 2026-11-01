@@ -31,9 +31,9 @@ export default function Footer() {
               className="mt-8 inline-flex h-12 items-center gap-2 rounded-xl bg-white px-5 text-[0.9375rem] font-semibold text-ink transition hover:bg-mark focus-visible:outline-mark"
             >
               Join the waitlist
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              {/* <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M5 12h14M13 6l6 6-6 6" />
-              </svg>
+              </svg> */}
             </a>
           </div>
 

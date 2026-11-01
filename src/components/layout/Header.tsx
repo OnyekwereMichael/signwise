@@ -1,13 +1,11 @@
 import { SITE_NAME } from "../../config/site";
 import Button from "../ui/Button";
+import logo from "../../../public/favicon.svg";
 
 export function Logo() {
   return (
     <span className="inline-flex items-center gap-2.5 text-lg leading-none font-semibold tracking-tight">
-      <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true">
-        <rect width="32" height="32" rx="8" fill="#2B3FD9" />
-        <path d="M9 16.5l4.5 4.5L23 11" fill="none" stroke="#fff" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
-      </svg>
+ <img src={logo}  width={36} height={36} alt="" />     
       {SITE_NAME}
     </span>
   );
